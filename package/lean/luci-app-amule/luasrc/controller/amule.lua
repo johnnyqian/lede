@@ -19,7 +19,7 @@ function index()
 		return
 	end
 
-	entry({"admin", "nas"}, firstchild(), "NAS", 45).dependent = false
+	entry({"admin", "nas"}, firstchild(), "NAS", 77).dependent = false
         
 	local page = entry({"admin", "nas", "amule"}, cbi("amule"), _("aMule Settings"))
 	page.dependent = true

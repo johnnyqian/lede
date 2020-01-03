@@ -433,10 +433,10 @@ header > .container > .brand {
     display: block;
 }
 
-.main > .main-left > .nav > li:nth-last-child(1) {
+/* .main > .main-left > .nav > li:nth-last-child(1) {
     margin-top: 2rem;
     font-size: 1.2rem;
-}
+} */
 
 .main > .main-left > .nav > li {
     padding: 0.5rem 1rem;

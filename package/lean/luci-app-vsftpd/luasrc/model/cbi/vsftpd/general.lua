@@ -18,7 +18,7 @@ sl = m:section(NamedSection, "listen", "listen", translate("Listening Settings")
 
 o = sl:option(Flag, "enable4", translate("Enable IPv4"))
 o.rmempty = false
-o.default = true
+o.default = false
 
 o = sl:option(Value, "ipv4", translate("IPv4 Address"))
 o.datatype = "ip4addr"

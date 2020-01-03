@@ -21,7 +21,7 @@ function index()
 		return
 	end
 	
-  entry({"admin", "nas"}, firstchild(), "NAS", 44).dependent = false
+  entry({"admin", "nas"}, firstchild(), "NAS", 77).dependent = false
 	
 	local page
 
